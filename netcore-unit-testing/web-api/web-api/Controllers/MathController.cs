@@ -10,7 +10,7 @@ namespace web_api.Controllers
         [HttpGet("add")]
         public IActionResult Add(double num1, double num2)
         {
-            double result = num1 + num2;
+            double result = num1 + num2 -1;
             return Ok(result);
         }
 
