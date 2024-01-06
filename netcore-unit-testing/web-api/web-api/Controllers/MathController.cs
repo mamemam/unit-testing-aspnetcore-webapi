@@ -18,6 +18,7 @@ namespace web_api.Controllers
         public IActionResult Subtract(double num1, double num2)
         {
             double result = num1 - num2;
+            double result2 = num2 - num1;
             return Ok(result);
         }
 
